@@ -75,7 +75,7 @@ export const Button = styled.button`
   border: none;
   cursor: pointer;
   &:hover {
-    background-color: #0952cc;
+    background-color:  #fffff;
   }
 
   ${lg({

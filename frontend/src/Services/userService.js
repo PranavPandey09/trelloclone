@@ -14,7 +14,7 @@ import {
 import { openAlert } from "../Redux/Slices/alertSlice";
 import setBearer from "../Utils/setBearer";
 
-const baseUrl = "http://localhost:5000/user/"; // Ensure trailing slash
+const baseUrl = "https://trelloclone-eight.vercel.app/user/"; // Ensure trailing slash
 
 // Register User
 export const register = async (
