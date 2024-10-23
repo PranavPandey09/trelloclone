@@ -15,11 +15,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use(cors({
-	origin: 'https://trelloclone-skj4.vercel.app', // Allow requests from this domain
-	methods: 'GET,POST,PUT,DELETE', // Allowed methods
-	credentials: true, // If credentials (cookies, auth) are needed
-  }));
+// app.use(cors({
+// 	origin: 'https://trelloclone-skj4.vercel.app', // Allow requests from this domain
+// 	methods: 'GET,POST,PUT,DELETE', // Allowed methods
+// 	credentials: true, // If credentials (cookies, auth) are needed
+//   }));
 
 // AUTH VERIFICATION AND UNLESS
 
